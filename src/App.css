@@ -21,6 +21,7 @@ button:active {
   box-shadow: inset 5px 5px 10px -3px rgba(54, 54, 54, 0.7);
 }
 
+
 /*----- HEADER -----*/
 
 .Header {
@@ -49,15 +50,28 @@ button:active {
   font-size: 1.5rem;
 }
 
+.Header-plein-menu {
+  display: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Header-plein-menu p {
+  margin: 0 1em;
+  border-bottom: 1px rgba(255, 255, 255, 0) solid;
+}
+
 .Header-burger {
   transform: rotate(90deg);
   font-weight: 500;
   letter-spacing: 0.1rem;
+  cursor: pointer;
 }
 
 .Header-menu {
   margin-top: 4.5em;
   padding-top: 1em;
+  cursor: pointer;
 }
 
 .Header-menu h2{
@@ -74,15 +88,33 @@ button:active {
   width: 100%;
 }
 
+@media(min-width: 800px){
+  .Header-plein-menu {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .Header-burger {
+    display: none;
+  }
+
+  .Header-plein-menu p:hover {
+    border-bottom: 1px white solid;
+    cursor: pointer;
+  }
+}
+
 /*----- HIGHLIGHT -----*/
 
 .Highlight-img {
   height: 80vh;
   padding-top: 4em;
-  background-image: url('../public/images/marionbotte.jpeg');
-  background-color: #4a855293;
+  /* background-image: url('../public/images/marionbotte.jpeg'); */
+  background-image: url('../public/images/marion-lac.jpg');
+  background-color: #64966b93;
   background-blend-mode: darken;
-  background-position: center;
+  background-position: left;
   background-size: cover;
   font-family: 'Montserrat';
   font-style: italic;
@@ -95,31 +127,111 @@ button:active {
   text-align: center;
   padding: 1em;
   color: white;
+  text-shadow: rgba(26, 25, 25, 0.705) 5px 5px 10px ;
 }
+
+@media(min-width: 800px){
+  .Highlight-img {
+    height: 100vh;
+    background-image: url('../public/images/marion-lac.jpg');
+    background-position: left;
+    justify-content: right;
+  }
+
+  .Highlight-quote {
+    font-size: 1.8rem;
+    color: white;
+    width: 50%;
+    margin-right: 4em;
+  }
+}
+
 
 /*---- PRESENTATION COURTE -----*/
 
-.Presentation-courte {
+.Presentation {
   background-color: #71af906c;
   padding: 1.5em;
   display: flex;
   flex-direction: column;
 }
 
-.Presentation-courte h2 {
-  margin-top: 1rem;
-  text-align: center;
+.Presentation-first-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 0;
 }
 
-.Presentation-courte p {
+.Presentation h2 {
+  margin-top: 1rem;
+}
+
+.Presentation p {
   padding: 1em 0;
 }
 
-.Presentation-courte img {
+.Presentation img {
   width: 50%;
   margin: 0 auto;
   border-radius: 50%;
   border: 1px #063F3E solid;
+}
+
+.Presentation-second-container{
+  display: none;
+}
+
+@media(min-width: 700px){
+  
+  .Presentation-container {
+    max-width: 1200px;
+    margin: 2em auto;
+  }
+
+  .Presentation-first-container{
+    margin: 2em 0;
+    flex-direction: row;
+  }
+
+  .Presentation-generale{
+    width: 45%;
+  }
+
+  .Presentation-container h2{
+    margin: 1em 0;
+  }
+
+  .Presentation img {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 50% 50% 3% 3%;
+    max-height: 50vh;
+    object-fit: cover;
+    object-position: top;
+  }  
+  
+  .Presentation img::before {
+    border: 2px solid #063F3E;
+    position: relative;
+    left: -5px;
+  }
+
+  .Presentation-second-container{
+    display: block;
+    margin: 4em 0;
+  }
+
+  .Presentation-detaillee {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Presentation-detaillee p {
+    margin-right: 1em;
+    width: 50%;
+  }
+
 }
 
 /*---- ACTIVITE -----*/
@@ -148,6 +260,7 @@ button:active {
   font-family: inherit;
   border-radius: 10px;
   width: 60%;
+  cursor: pointer;
 }
 
 .Activite img {
@@ -157,6 +270,23 @@ button:active {
 
 .Activite img:last-child {
   width: 50%;
+}
+
+@media(min-width: 700px){
+  .Activite-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 2em auto;
+  }
+  .Activite {
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .Activite-more {
+    font-size: 1rem;
+  }
 }
 
 /*----- RESERVATION -----*/
@@ -177,6 +307,7 @@ button:active {
   padding: 0.8em 2em;
   font-family: inherit;
   font-size: 1.25rem;
+  cursor: pointer;
 }
 
 /*---- FOOTER -----*/

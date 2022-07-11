@@ -1,6 +1,6 @@
 export default function Activite (){
     return (
-        <section className="Activite">
+        <section className="Activite-container">
             <section className="Activite sophro">
                 <h2>
                     Sophrothérapie
