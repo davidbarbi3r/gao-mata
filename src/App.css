@@ -1,38 +1,193 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  font-family: 'Montserrat Alternates';
+  line-height: 1.6rem;
+}
+
+button {
+  box-shadow: inset 5px 4px 6px -3px rgba(255, 255, 255, 0.7);
+}
+
+button:hover,
+button:focus {
+  box-shadow: none;
+}
+
+button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(54, 54, 54, 0.7);
+}
+
+/*----- HEADER -----*/
+
+.Header {
+  width: 100%;
+  min-height: 80px;
+  background-color:  #063F3E;
+  font-size: calc(1rem + 2vmin);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Header-left {
+  display: flex;
+  align-items: center;
+}
+
+.Header img{
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5em;
+}
+
+.Header-title {
+  font-size: 1.5rem;
+}
+
+.Header-burger {
+  transform: rotate(90deg);
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.Header-menu {
+  margin-top: 4.5em;
+  padding-top: 1em;
+}
+
+.Header-menu h2{
+  border-bottom: white solid 1px;
+  background-color: #c3ddd0;
+  font-size: 1rem;
+  padding: 0.6em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*----- HIGHLIGHT -----*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Highlight-img {
+  height: 80vh;
+  padding-top: 4em;
+  background-image: url('../public/images/marionbotte.jpeg');
+  background-color: #4a855293;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat';
+  font-style: italic;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.Highlight-quote {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*---- PRESENTATION COURTE -----*/
+
+.Presentation-courte {
+  background-color: #71af906c;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Presentation-courte h2 {
+  margin-top: 1rem;
+  text-align: center;
 }
+
+.Presentation-courte p {
+  padding: 1em 0;
+}
+
+.Presentation-courte img {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px #063F3E solid;
+}
+
+/*---- ACTIVITE -----*/
+
+.Activite {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Activite p {
+  padding: 1em 0;
+}
+
+.Activite h2 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.Activite-more {
+  background-color: #b36a5e;
+  border: none;
+  padding: 0.5em 1em;
+  color: white;
+  font-family: inherit;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.Activite img {
+  width: 50%;
+  border-bottom: 1px solid black;
+}
+
+.Activite img:last-child {
+  width: 50%;
+}
+
+/*----- RESERVATION -----*/
+
+.Reservation {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #71af906c;
+}
+
+.Reservation button {
+  background-color: #063F3E;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8em 2em;
+  font-family: inherit;
+  font-size: 1.25rem;
+}
+
+/*---- FOOTER -----*/
+
+.Footer {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #b36a5e;
+  color: white;
+}
+
