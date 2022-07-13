@@ -8,9 +8,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
-      <Highlight/>
+      <Highlight
+          text="Plantons ensemble les graines de votre éclosion future,  
+          croyez pleinement en vos potentialités,
+          faites vous confiance, votre corps sait !"
+          backgroundImage="/images/marion-lac.jpg"/>
       <Presentation/>
       <Activite/>
       <Reservation/>
