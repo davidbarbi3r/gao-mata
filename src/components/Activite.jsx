@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Activite (){
     return (
         <section className="Activite-container">
@@ -14,7 +16,7 @@ export default function Activite (){
                     dans des parcours de soin, 
                     ou encore pour la préparation mentale lors d'événements précis.
                 </p>
-                <button className="Activite-more">En savoir plus</button>
+                <button className="Activite-more"><Link to="/sophrotherapie">En savoir plus</Link></button>
                 <img src="/icons/meditation.png" alt="galets-icon"></img>
             </section>
             <section className="Activite sophro">
@@ -27,7 +29,7 @@ export default function Activite (){
                     Enveloppé par le tissu, une deuxième peau s’offre à vous, 
                     le bercement vous apaise, les postures vous déchargent … 
                 </p>
-                <button className="Activite-more">En savoir plus</button>
+                <button className="Activite-more"><Link to="/fly-yoga">En savoir plus</Link></button>
                 <img src="/icons/lotus.png" alt="lotus-icon"></img>
             </section>
         </section>

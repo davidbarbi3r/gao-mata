@@ -21,6 +21,19 @@ button:active {
   box-shadow: inset 5px 5px 10px -3px rgba(54, 54, 54, 0.7);
 }
 
+a {
+  text-decoration: none;
+  color: white
+}
+
+.Header-plein-menu .Active {
+  border-bottom: 1px white solid;
+}
+
+.Header-menu .Active {
+  text-decoration: underline;
+}
+
 
 /*----- HEADER -----*/
 
@@ -56,7 +69,7 @@ button:active {
   font-weight: bold;
 }
 
-.Header-plein-menu p {
+.Header-plein-menu a {
   margin: 0 1em;
   border-bottom: 1px rgba(255, 255, 255, 0) solid;
 }
@@ -69,17 +82,22 @@ button:active {
 }
 
 .Header-menu {
-  margin-top: 4.5em;
+  margin-top: 4.6em;
   padding-top: 1em;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
-.Header-menu h2{
-  border-bottom: white solid 1px;
-  background-color: #c3ddd0;
+.Header-menu a{
+  border-bottom: #063F3E solid 1px;
+  backdrop-filter: blur(5px);
+  background-color: #c3ddd0a9;
   font-size: 1rem;
   padding: 0.6em;
   text-align: center;
+  color:#063F3E;
+  font-weight: bold;
 }
 
 .sticky {
@@ -99,7 +117,7 @@ button:active {
     display: none;
   }
 
-  .Header-plein-menu p:hover {
+  .Header-plein-menu a:hover {
     border-bottom: 1px white solid;
     cursor: pointer;
   }
@@ -108,9 +126,8 @@ button:active {
 /*----- HIGHLIGHT -----*/
 
 .Highlight-img {
-  height: 80vh;
+  height: 83vh;
   padding-top: 4em;
-  /* background-image: url('../public/images/marionbotte.jpeg'); */
   background-image: url('../public/images/marion-lac.jpg');
   background-color: #64966b93;
   background-blend-mode: darken;

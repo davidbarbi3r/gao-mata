@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from "react-router-dom";
 
 export default function Header (){
 
@@ -9,12 +10,20 @@ export default function Header (){
     }
 
     const headerMenu =            
-        <div className="Header-menu sticky">
-            <h2>Fly Yoga</h2>
-            <h2>Sophrothérapie</h2>
-            <h2>A propos</h2>
-            <h2>Réservation</h2>
-        </div>
+        <nav className="Header-menu sticky">
+            <NavLink to="/"
+                     className={({ isActive }) => isActive ? "Active" : undefined}>
+                        Accueil
+            </NavLink>
+            <NavLink to="/fly-yoga"
+                     className={({ isActive }) => isActive ? "Active" : undefined}>
+                        Fly Yoga
+            </NavLink>
+            <NavLink to="/sophrotherapie"
+                     className={({ isActive }) => isActive ? "Active" : undefined}>
+                        Sophrothérapie</NavLink>
+            <a href="https://www.eversports.fr/widget/w/3D38zX" target="#">Réservation</a>
+        </nav>
 
     return (
         <div className="Header-container">
@@ -23,6 +32,23 @@ export default function Header (){
                     <img src="./icons/logowebblanc.png" alt="logo gao mata"></img>
                     <h1 className="Header-title">Gao.Mata</h1>
                 </div>
+                <nav className="Header-plein-menu">
+                    <NavLink to="/"
+                            className={({ isActive }) => isActive ? "Active" : undefined}>
+                                Accueil
+                    </NavLink>
+                    <NavLink to="/fly-yoga" 
+                            className={({ isActive }) => isActive ? "Active" : undefined}>
+                                Fly Yoga
+                    </NavLink>
+                    <NavLink to="/sophrotherapie"
+                            className={({ isActive }) => isActive ? "Active" : undefined}>
+                                Sophrothérapie
+                    </NavLink>
+                    <a href="https://www.eversports.fr/widget/w/3D38zX" target="#">
+                            Réservation
+                    </a>
+                </nav>
                 <div className="Header-burger" onClick={toggleMenu}>
                     |||
                 </div>
