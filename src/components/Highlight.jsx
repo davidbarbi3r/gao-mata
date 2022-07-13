@@ -1,10 +1,10 @@
-export default function Highlight (){
+export default function Highlight (props){
     return (
-        <div className="Highlight-img">
+        <div className="Highlight-img"
+            style={{
+                backgroundImage: `url(${props.backgroundImage})`}}>
             <h1 className="Highlight-quote">
-                " Plantons ensemble les graines de votre éclosion future, <br/> 
-                croyez pleinement en vos potentialités, <br/>
-                faites vous confiance, votre corps sait ! "
+                {props.text}
             </h1>
         </div>
     )
