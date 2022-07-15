@@ -34,6 +34,10 @@ a {
   text-decoration: underline;
 }
 
+img {
+  image-rendering: optimizeSpeed;
+}
+
 
 /*----- HEADER -----*/
 
@@ -325,6 +329,43 @@ a {
   font-family: inherit;
   font-size: 1.25rem;
   cursor: pointer;
+}
+
+/*---- CAROUSEL ----*/
+
+.Carousel {
+  background-image: "/images/ginkgo-leaves.jpg";
+  background-size: cover;
+  background-repeat: repeat;
+  padding: 2em;
+  border: 2px solid red;
+  background: #063F3E;
+}
+
+.Carousel-container {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow: scroll;
+  border: 2px solid purple;
+}
+
+.Carousel-container img  {
+  max-width: 80%;
+  image-rendering: optimizeSpeed;
+  image-resolution: inherit;
+  margin-right: 1rem;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+@media(min-width: 700px){
+  .Carousel-container img {
+    width: 40%;
+  }
+
+  .Carousel-container {
+    overflow: visible;
+  }
 }
 
 /*---- FOOTER -----*/
