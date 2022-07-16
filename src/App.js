@@ -14,7 +14,7 @@ function App() {
           text="Plantons ensemble les graines de votre éclosion future,  
           croyez pleinement en vos potentialités,
           faites vous confiance, votre corps sait !"
-          backgroundImage="/images/marion-lac.jpg"/>
+          backgroundImage="gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg"/>
       <Presentation/>
       <Activite/>
       <Reservation/>
