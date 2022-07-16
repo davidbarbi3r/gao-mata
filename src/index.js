@@ -11,21 +11,21 @@ import Highlight from './components/Highlight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter>
   <div className="App">
-    <Routes>
-        <Route exact path="/" element={<App/>}/>
-        <Route path='/fly-yoga' element={<Fly/>}/>
-        <Route path="/sophrotherapie" element={<Sophro/>}/>
-        {/* <Route
-          path="*"
-          element={
-            <Highlight
-              text="Il semblerait que vous vous êtes perdu, voulez vous retourner sur la voie ?"/>
-            }/> */}
-    </Routes>
-  </div>
+    <HashRouter>
+      <Routes>
+          <Route exact path="/" element={<App/>}/>
+          <Route path='/fly-yoga' element={<Fly/>}/>
+          <Route path="/sophrotherapie" element={<Sophro/>}/>
+          {/* <Route
+            path="*"
+            element={
+              <Highlight
+                text="Il semblerait que vous vous êtes perdu, voulez vous retourner sur la voie ?"/>
+              }/> */}
+      </Routes>
   </HashRouter>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
