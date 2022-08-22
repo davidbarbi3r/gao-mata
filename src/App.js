@@ -5,6 +5,7 @@ import Presentation from './components/Presentation';
 import Activite from './components/Activite';
 import Reservation from './components/Reservation';
 import Footer from './components/Footer';
+import marionLac from "./assets/marion-lac.jpg"
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
           text="Plantons ensemble les graines de votre éclosion future,  
           croyez pleinement en vos potentialités,
           faites vous confiance, votre corps sait !"
-          backgroundImage="gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg"/>
+          // backgroundImage="gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg"
+          backgroundImage={marionLac}
+          />
       <Presentation/>
       <Activite/>
       <Reservation/>

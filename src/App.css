@@ -127,47 +127,6 @@ img {
   }
 }
 
-/*----- HIGHLIGHT -----*/
-
-.Highlight-img {
-  height: 83vh;
-  padding-top: 4em;
-  background-image: url('../public/images/marion-lac.jpg');
-  background-color: #64966b93;
-  background-blend-mode: darken;
-  background-position: left;
-  background-size: cover;
-  font-family: 'Montserrat';
-  font-style: italic;
-  display: flex;
-  align-items: center;
-}
-
-.Highlight-quote {
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 1em;
-  color: white;
-  text-shadow: rgba(26, 25, 25, 0.705) 5px 5px 10px ;
-}
-
-@media(min-width: 800px){
-  .Highlight-img {
-    height: 100vh;
-    background-image: url('./assets/marion-lac.jpg');
-    background-position: left;
-    justify-content: right;
-  }
-
-  .Highlight-quote {
-    font-size: 1.8rem;
-    color: white;
-    width: 50%;
-    margin-right: 4em;
-  }
-}
-
-
 /*---- PRESENTATION COURTE -----*/
 
 .Presentation {

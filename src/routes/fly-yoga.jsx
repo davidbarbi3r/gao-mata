@@ -3,6 +3,7 @@ import Highlight from '../components/Highlight';
 import Reservation from '../components/Reservation';
 import Footer from '../components/Footer';
 import Carousel from '../components/Carousel';
+import marionFly from "../assets/marion-fly-wide2.jpg"
 
 function Fly() {
     return (
@@ -12,7 +13,7 @@ function Fly() {
                 text={`Plantons ensemble les graines de votre éclosion future,  
                 croyez pleinement en vos potentialités,
                 faites vous confiance, votre corps sait !`}
-                backgroundImage="/images/marion-fly-wide2.jpg"/>
+                backgroundImage={marionFly}/>
             <Carousel
                 images={[
                     {url: "/images/fly/marion-flyc1.jpg",
