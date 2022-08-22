@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Fly from './routes/fly-yoga';
 import Sophro from './routes/sophrotherapie';
-import Highlight from './components/Highlight';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
