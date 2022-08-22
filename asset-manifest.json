@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/gao-mata/static/css/main.0f18ffa5.css",
-    "main.js": "/gao-mata/static/js/main.a9b1e1ea.js",
+    "main.css": "/gao-mata/static/css/main.7ddcc1ee.css",
+    "main.js": "/gao-mata/static/js/main.aa5e8013.js",
     "static/js/787.3b139045.chunk.js": "/gao-mata/static/js/787.3b139045.chunk.js",
     "static/media/marion-lac.jpg": "/gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg",
+    "static/media/marionbotte2.jpeg": "/gao-mata/static/media/marionbotte2.cefa5bb2b73d7ef3daa7.jpeg",
+    "static/media/lotus.png": "/gao-mata/static/media/lotus.2e4ba6ad0d9d375ffe5e.png",
+    "static/media/galets.png": "/gao-mata/static/media/galets.2ded15084ab46b49638d.png",
+    "static/media/logowebblanc.png": "/gao-mata/static/media/logowebblanc.3ef17bf51019e885726c.png",
     "index.html": "/gao-mata/index.html",
-    "main.0f18ffa5.css.map": "/gao-mata/static/css/main.0f18ffa5.css.map",
-    "main.a9b1e1ea.js.map": "/gao-mata/static/js/main.a9b1e1ea.js.map",
+    "main.7ddcc1ee.css.map": "/gao-mata/static/css/main.7ddcc1ee.css.map",
+    "main.aa5e8013.js.map": "/gao-mata/static/js/main.aa5e8013.js.map",
     "787.3b139045.chunk.js.map": "/gao-mata/static/js/787.3b139045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f18ffa5.css",
-    "static/js/main.a9b1e1ea.js"
+    "static/css/main.7ddcc1ee.css",
+    "static/js/main.aa5e8013.js"
   ]
 }
