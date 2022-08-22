@@ -154,7 +154,7 @@ img {
 @media(min-width: 800px){
   .Highlight-img {
     height: 100vh;
-    background-image: url('../public/images/marion-lac.jpg');
+    background-image: url('./assets/marion-lac.jpg');
     background-position: left;
     justify-content: right;
   }
