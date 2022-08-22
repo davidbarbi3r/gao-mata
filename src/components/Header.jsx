@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logowebblanc.png"
 
 export default function Header (){
 
@@ -29,7 +30,7 @@ export default function Header (){
         <div className="Header-container">
             <header className="Header sticky">
                 <div className="Header-left">
-                    <img src="./icons/logowebblanc.png" alt="logo gao mata"></img>
+                    <img src={logo} alt="logo gao mata"></img>
                     <h1 className="Header-title">Gao.Mata</h1>
                 </div>
                 <nav className="Header-plein-menu">

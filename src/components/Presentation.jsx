@@ -1,3 +1,5 @@
+import marionBotte from "../assets/marionbotte2.jpeg"
+
 export default function Presentation (){
     return (
         <section className="Presentation">
@@ -18,7 +20,7 @@ export default function Presentation (){
                             une écoute de vos besoins dans un espace de non jugement et de douceur. 
                         </p>
                     </div>
-                    <img src='images/marionbotte2.jpeg' alt="Portrait"></img>
+                    <img src={marionBotte} alt="Portrait"></img>
                 </div>
                 <div className="Presentation-second-container">
                     <h2>Mon parcours</h2>

@@ -232,7 +232,7 @@ img {
     object-position: top;
   }  
   
-  .Presentation img::before {
+  .Presentation > img::before {
     border: 2px solid #063F3E;
     position: relative;
     left: -5px;
@@ -262,6 +262,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 600px;
+}
+
+.Activite-container {
+  background-color: #71af906c;
 }
 
 .Activite p {
@@ -307,6 +312,15 @@ img {
 
   .Activite-more {
     font-size: 1rem;
+  }
+
+  .Activite-text {
+    height: 350px;
+    display: inline-block;
+  }
+
+  .Activite button {
+    display: block;
   }
 }
 
