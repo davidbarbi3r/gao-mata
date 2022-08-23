@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/gao-mata/static/css/main.014f1445.css",
-    "main.js": "/gao-mata/static/js/main.6cca8d86.js",
+    "main.css": "/gao-mata/static/css/main.7fd66ad8.css",
+    "main.js": "/gao-mata/static/js/main.816c630d.js",
     "static/js/787.3b139045.chunk.js": "/gao-mata/static/js/787.3b139045.chunk.js",
-    "static/media/marion-fly-wide2.jpg": "/gao-mata/static/media/marion-fly-wide2.8a4df362fc051f694bac.jpg",
     "static/media/marion-lac.jpg": "/gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg",
+    "static/media/2.jpeg": "/gao-mata/static/media/2.705a68adf8b4e0d9650e.jpeg",
+    "static/media/3.jpeg": "/gao-mata/static/media/3.ab7b3d0de754124f6966.jpeg",
+    "static/media/1.jpeg": "/gao-mata/static/media/1.d4ee0aa7da45f1f7f8e2.jpeg",
+    "static/media/marion-hamac-chill2zoom.jpg": "/gao-mata/static/media/marion-hamac-chill2zoom.21003ece38d484a2ff1d.jpg",
+    "static/media/ginkgo-leaves.jpg": "/gao-mata/static/media/ginkgo-leaves.735e39feb8fa2fdb130f.jpg",
     "static/media/marionbotte2.jpeg": "/gao-mata/static/media/marionbotte2.cefa5bb2b73d7ef3daa7.jpeg",
     "static/media/lotus.png": "/gao-mata/static/media/lotus.2e4ba6ad0d9d375ffe5e.png",
     "static/media/galets.png": "/gao-mata/static/media/galets.2ded15084ab46b49638d.png",
     "static/media/logowebblanc.png": "/gao-mata/static/media/logowebblanc.3ef17bf51019e885726c.png",
     "index.html": "/gao-mata/index.html",
-    "main.014f1445.css.map": "/gao-mata/static/css/main.014f1445.css.map",
-    "main.6cca8d86.js.map": "/gao-mata/static/js/main.6cca8d86.js.map",
+    "main.7fd66ad8.css.map": "/gao-mata/static/css/main.7fd66ad8.css.map",
+    "main.816c630d.js.map": "/gao-mata/static/js/main.816c630d.js.map",
     "787.3b139045.chunk.js.map": "/gao-mata/static/js/787.3b139045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.014f1445.css",
-    "static/js/main.6cca8d86.js"
+    "static/css/main.7fd66ad8.css",
+    "static/js/main.816c630d.js"
   ]
 }
