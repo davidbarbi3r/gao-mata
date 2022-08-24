@@ -1,47 +1,84 @@
-import marionBotte from "../assets/marionbotte2.jpeg"
+import { styled } from "@stitches/react"
+import { useState } from "react"
 
-export default function Presentation (){
+export default function Presentation (props){
+
+    const StyledPhoto = styled("img", {
+        objectPosition: "bottom",
+        margin: "0 auto",
+        maxHeight: "50vh",
+        maxWidth: "100%",
+        objectFit: "cover",
+        borderRadius:"15px",
+        "&::before":{
+            width: "1250px",
+            height: "1250px",
+            borderLeft: "50px solid transparent",
+            borderRight: "50px solid transparent",
+            borderBottom: "100px solid blue",
+            backgroundColor: "red",
+            top: "-50px"
+        },
+        "@media(min-width: 700px)": {
+            width: "40%",
+            margin: "0 auto",
+            borderRadius: "50% 50% 3% 3%",
+            maxHeight: "50vh",
+            objectFit: 'cover'
+        }
+    })
+
+    const StyledHighlight = styled("h3", {
+        textAlign: 'center',
+        margin: "1.5em"
+    })
+
+    const presentationSuite = props.pPresentationSuite3 ? 
+            <div>
+                <div>
+                    <h2>{props.titre3}</h2>
+                    <p>{props.pPresentationSuite3}</p> 
+                </div>
+                <div>
+                    <h2>{props.titre4}</h2>
+                    <p>{props.pPresentationSuite4}</p>
+                </div>
+            </div> : null
+
     return (
         <section className="Presentation">
             <div className="Presentation-container">
                 <div className="Presentation-first-container">
                     <div className="Presentation-generale">
                         <h2>
-                            Bienvenue dans l’univers Gao Mata
+                            {props.titre1}
                         </h2>
                         <p>
-                            Je m’appelle Marion, j’ai 30 ans et la folle envie de vous guider dans le plus beau des voyages , le vôtre ! 
+                            {props.pPresentation1}
                         </p>
                         <p>
-                            Au travers de mes cours, 
-                            ma mission est alors de vous guider 
-                            vers votre propre exploration, 
-                            par une prise de conscience de vos capacités, 
-                            une écoute de vos besoins dans un espace de non jugement et de douceur. 
+                            {props.pPresentation2} 
                         </p>
                     </div>
-                    <img src={marionBotte} alt="Portrait"></img>
+                    <StyledPhoto src={props.photo1} alt="Portrait"></StyledPhoto>
                 </div>
+                {props.pPresentation3}
                 <div className="Presentation-second-container">
-                    <h2>Mon parcours</h2>
+                    <h2>{props.titre2}</h2>
                     <p>
-                        Mon parcours n'est pas linéaire, mais il est profondément marqué par l’importance de la richesse humaine.
-                        Travailleur social diplômée d’état, j’ai exercé ma profession durant une dizaine d’années auprès de publics et d’environnements très divers. 
-                        J’ai, par ce biais, beaucoup appris des autres mais surtout de moi-même. 
+                        {props.pPresentationSuite1} 
                     </p>
                     <p>
-                        Ce chemin professionnel m’a menée à ce que j’appelle une “sortie de route”, plus communément appelé “burn out”.  
-                        Ce moment de vie, bien qu’extrêmement sombre, a finalement peut-être été ma plus belle opportunité, celle qui m’a menée à m’observer, à me rencontrer, à m’explorer en toute humilité et avec beaucoup de sincérité 
-                        Cette épreuve m’a poussée à mettre du sens dans mon quotidien et dans mes pratiques. 
+                        {props.pPresentationSuite2} 
                     </p>
+                    <StyledHighlight>{props.highlight1}</StyledHighlight>
+                    {presentationSuite}
                     <div className="Presentation-detaillee">
                         <p>
-                            De nature aventurière , voyageuse , un brin rêveuse et utopiste j’ai alors compris qu’il était temps de me lancer et de réaliser ce que je gardais bien caché au fond de moi même.
-                            Fascinée par le monde du cirque depuis toute petite, piquée par le doux virus du yoga il y a déjà plusieurs années, c’est tout naturellement que j’ai fait le choix de me former à la méthode “Fly Yoga” initiée par Florie RAVINET. 
+                            {props.pPresentationDetaillee1} 
                         </p>
                         <p>
-                            Toujours désireuse d’accompagner et de pouvoir apporter un soutien à quiconque en ressent le besoin face aux épreuves que la vie oriente sur nos chemins , j’ai aussi entrepris de me former à la Sophrologie via l’Institut de Formation à la Sophrologie - Catherine Aliotta.
-                            C’est désormais forte de mes expériences, de mon parcours de vie et plus que jamais en phase avec mon hypersensibilité que je souhaite vous apporter de nouveaux outils, pour une meilleure connaissance de vous-même et un quotidien plus doux. 
+                            {props.pPresentationDetaillee2} 
                         </p>
                     </div>
                 </div>

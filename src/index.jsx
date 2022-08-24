@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Fly from './routes/fly-yoga';
 import Sophro from './routes/sophrotherapie';
+import Reservation from './routes/reservation';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,12 +17,7 @@ root.render(
           <Route exact path="/" element={<App/>}/>
           <Route path='/fly-yoga' element={<Fly/>}/>
           <Route path="/sophrotherapie" element={<Sophro/>}/>
-          {/* <Route
-            path="*"
-            element={
-              <Highlight
-                text="Il semblerait que vous vous êtes perdu, voulez vous retourner sur la voie ?"/>
-              }/> */}
+          <Route path="/reservation" element={<Reservation/>}/>
       </Routes>
   </HashRouter>
   </div>

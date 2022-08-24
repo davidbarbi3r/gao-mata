@@ -34,11 +34,6 @@ a {
   text-decoration: underline;
 }
 
-img {
-  image-rendering: optimizeSpeed;
-}
-
-
 /*----- HEADER -----*/
 
 .Header {
@@ -134,6 +129,7 @@ img {
   padding: 1.5em;
   display: flex;
   flex-direction: column;
+  text-align: justify;
 }
 
 .Presentation-first-container{
@@ -151,14 +147,7 @@ img {
   padding: 1em 0;
 }
 
-.Presentation img {
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 1px #063F3E solid;
-}
-
-.Presentation-second-container{
+.Presentation-detaillee{
   display: none;
 }
 
@@ -182,21 +171,6 @@ img {
     margin: 1em 0;
   }
 
-  .Presentation img {
-    width: 40%;
-    margin: 0 auto;
-    border-radius: 50% 50% 3% 3%;
-    max-height: 50vh;
-    object-fit: cover;
-    object-position: top;
-  }  
-  
-  .Presentation > img::before {
-    border: 2px solid #063F3E;
-    position: relative;
-    left: -5px;
-  }
-
   .Presentation-second-container{
     display: block;
     margin: 4em 0;
@@ -208,8 +182,12 @@ img {
   }
 
   .Presentation-detaillee p {
-    margin-right: 1em;
+    margin-right: 2.5em;
     width: 50%;
+  }
+
+  .Presentation-detaillee p:last-child {
+    margin-right: 0;
   }
 
 }
@@ -222,10 +200,6 @@ img {
   flex-direction: column;
   align-items: center;
   height: 600px;
-}
-
-.Activite-container {
-  background-color: #71af906c;
 }
 
 .Activite p {
@@ -302,43 +276,6 @@ img {
   font-family: inherit;
   font-size: 1.25rem;
   cursor: pointer;
-}
-
-/*---- CAROUSEL ----*/
-
-.Carousel {
-  background-image: "/images/ginkgo-leaves.jpg";
-  background-size: cover;
-  background-repeat: repeat;
-  padding: 2em;
-  border: 2px solid red;
-  background: #063F3E;
-}
-
-.Carousel-container {
-  display: flex;
-  scroll-snap-type: x mandatory;
-  overflow: scroll;
-  border: 2px solid purple;
-}
-
-.Carousel-container img  {
-  max-width: 80%;
-  image-rendering: optimizeSpeed;
-  image-resolution: inherit;
-  margin-right: 1rem;
-  flex-shrink: 0;
-  scroll-snap-align: start;
-}
-
-@media(min-width: 700px){
-  .Carousel-container img {
-    width: 40%;
-  }
-
-  .Carousel-container {
-    overflow: visible;
-  }
 }
 
 /*---- FOOTER -----*/

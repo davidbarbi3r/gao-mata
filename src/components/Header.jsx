@@ -23,7 +23,9 @@ export default function Header (){
             <NavLink to="/sophrotherapie"
                      className={({ isActive }) => isActive ? "Active" : undefined}>
                         Sophrothérapie</NavLink>
-            <a href="https://www.eversports.fr/widget/w/3D38zX" target="#">Réservation</a>
+            <NavLink to="/reservations"
+                     className={({ isActive }) => isActive ? "Active" : undefined}>
+                        Réservation</NavLink>
         </nav>
 
     return (
@@ -46,9 +48,10 @@ export default function Header (){
                             className={({ isActive }) => isActive ? "Active" : undefined}>
                                 Sophrothérapie
                     </NavLink>
-                    <a href="https://www.eversports.fr/widget/w/3D38zX" target="#">
-                            Réservation
-                    </a>
+                    <NavLink to="/reservation"
+                            className={({ isActive }) => isActive ? "Active" : undefined}>
+                                Réservation
+                    </NavLink>
                 </nav>
                 <div className="Header-burger" onClick={toggleMenu}>
                     |||

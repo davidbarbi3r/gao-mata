@@ -29,7 +29,7 @@ export default function Activite (){
                         Fly Yoga
                     </h2>
                     <p>
-                        Cette méthode a pour but d’ <strong>allier corps physique, 
+                        Cette méthode a pour but d’<strong>allier corps physique, 
                         mental et émotionnel</strong> afin d’ouvrir tous les possibles de libération. <br/>
                         Enveloppé par le tissu, une deuxième peau s’offre à vous, 
                         le bercement vous apaise, les postures vous déchargent … 

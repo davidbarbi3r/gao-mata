@@ -14,7 +14,7 @@ export default function Highlight (props){
         display: "flex",
         alignItems: "center",
         "@media(min-width: 800px)": {
-            height: "100vh",
+            height: "92vh",
             backgroundPosition: "left",
             justifyContent: "right"
         }
