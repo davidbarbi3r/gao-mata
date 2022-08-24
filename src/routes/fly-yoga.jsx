@@ -39,11 +39,11 @@ function Fly() {
 
   return (
     <div>
-      <Header />
       <Title
         title="Fly Yoga"
         quote="Déployez vos ailes, la Magie du Hamac ne demande qu’à œuvrer pour vous"
       />
+      <Header />
       <Presentation
         titre1="Qu'est ce que le Fly Yoga?"
         pPresentation1="Le fly yoga , le “yoga volant” , le “yoga dans les airs” , le “yoga avec le tissu” , oui oui , c’est bien de lui dont nous allons parler"

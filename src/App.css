@@ -52,6 +52,12 @@ a {
   align-items: center;
 }
 
+.Header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .Header img{
   width: 4rem;
   height: 4rem;
@@ -81,7 +87,7 @@ a {
 }
 
 .Header-menu {
-  margin-top: 4.6em;
+  margin-top: 4.45em;
   padding-top: 1em;
   cursor: pointer;
   display: flex;
@@ -105,6 +111,12 @@ a {
   width: 100%;
 }
 
+.Header-button {
+  display: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
 @media(min-width: 800px){
   .Header-plein-menu {
     display: flex;
@@ -119,6 +131,20 @@ a {
   .Header-plein-menu a:hover {
     border-bottom: 1px white solid;
     cursor: pointer;
+  }
+
+  .Header-button {
+    display: block;
+    background-color: hsl(8, 37%, 53%);
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+    font-family: inherit;
+    border-radius: 10px;
+    width: 60%;
+    cursor: pointer;
+    max-width: 200px;
+    width: fit-content;
   }
 }
 
@@ -220,6 +246,8 @@ a {
   border-radius: 10px;
   width: 60%;
   cursor: pointer;
+  max-width: 200px;
+  width: fit-content;
 }
 
 .Activite img {

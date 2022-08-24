@@ -7,18 +7,21 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import Fly from './routes/fly-yoga';
 import Sophro from './routes/sophrotherapie';
 import Reservation from './routes/reservation';
+import ScrollToTop from './utils/ScrollToTop';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className="App">
     <HashRouter>
-      <Routes>
-          <Route exact path="/" element={<App/>}/>
-          <Route path='/fly-yoga' element={<Fly/>}/>
-          <Route path="/sophrotherapie" element={<Sophro/>}/>
-          <Route path="/reservation" element={<Reservation/>}/>
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+            <Route exact path="/" element={<App/>}/>
+            <Route path='/fly-yoga' element={<Fly/>}/>
+            <Route path="/sophrotherapie" element={<Sophro/>}/>
+            <Route path="/reservation" element={<Reservation/>}/>
+        </Routes>
+      </ScrollToTop>
   </HashRouter>
   </div>
 );

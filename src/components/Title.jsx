@@ -21,14 +21,14 @@ const StyledTextContainer = styled("div", {
     padding: "2em",
     margin: "1.5em",
     borderRadius: "15px",
-    maxWidth: "500px"
+    maxWidth: "500px",
 })
 
 const StyledTitle = styled("h1", {
     padding: "2rem",
     fontSize: "1.4rem",
     color: "#063F3E",
-    marginBottom: "1.5em",
+    marginBottom: "1em",
     "@media(min-width: 800px)": {
         fontSize: "2rem"
     }

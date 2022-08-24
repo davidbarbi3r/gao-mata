@@ -4,6 +4,7 @@ import Reservation from "../components/Reservation";
 import Footer from "../components/Footer";
 import Presentation from "../components/Presentation";
 import Prices from "../components/Prices";
+import marionPhoto from "../assets/mario-sophro.jpg"
 
 function Sophro() {
   const sophroSessions = [
@@ -41,6 +42,7 @@ function Sophro() {
       <Title title="Sophrothérapie" quote="Science de l’esprit harmonieux" />
       <Presentation
         titre1="La sophrologie"
+        photo1={marionPhoto}
         pPresentation1="Méthode inventée en 1960 par Alfonso Caycedo (psychiatre) que l’on qualifie de psycho-corporelle car elle allie en pratique les corps physiques, mentaux et émotionnels ."
         pPresentation2="Inspirée du yoga, du zen, de la psychanalyse, la sophrologie est une méthode thérapeutique douce qui vise à prendre conscience de ses capacités à surmonter certaines situations, de peurs, phobies et angoisses. Elle est également très couramment utilisée dans la gestion du stress, dans des parcours de soin, ou encore pour la préparation mentale lors d'événements précis (accouchements, examens…)."
         pPresentation3="C’est également un merveilleux outil de cohésion de groupe , de connaissance de soi, de prise de conscience de la pluralité de ses capacités , elle permet une douce émergence de l’estime de soi pour plus de confiance au quotidien."

@@ -13,11 +13,7 @@ function Reservation() {
         height: "fit-content"
     })
 
-    return (
-        <div>
-            <Header/>
-            <StyledContainer>
-                    <iframe
+    const iframe =  <iframe
                         title='Planning réservations'
                         width="90%"
                         height="1700px"
@@ -25,6 +21,12 @@ function Reservation() {
                         frameBorder="0"
                         samesite="Strict">
                     </iframe>
+
+    return (
+        <div>
+            <Header/>
+            <StyledContainer>
+                   {iframe}
             </StyledContainer>
             <Footer/>
         </div>
