@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gao-mata/static/css/main.88ffe134.css",
-    "main.js": "/gao-mata/static/js/main.dade295f.js",
+    "main.js": "/gao-mata/static/js/main.643e0951.js",
     "static/js/787.3b139045.chunk.js": "/gao-mata/static/js/787.3b139045.chunk.js",
     "static/media/marion-lac.jpg": "/gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg",
     "static/media/marion-hamac-chill2zoom.jpg": "/gao-mata/static/media/marion-hamac-chill2zoom.21003ece38d484a2ff1d.jpg",
@@ -12,11 +12,11 @@
     "static/media/logowebblanc.png": "/gao-mata/static/media/logowebblanc.3ef17bf51019e885726c.png",
     "index.html": "/gao-mata/index.html",
     "main.88ffe134.css.map": "/gao-mata/static/css/main.88ffe134.css.map",
-    "main.dade295f.js.map": "/gao-mata/static/js/main.dade295f.js.map",
+    "main.643e0951.js.map": "/gao-mata/static/js/main.643e0951.js.map",
     "787.3b139045.chunk.js.map": "/gao-mata/static/js/787.3b139045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88ffe134.css",
-    "static/js/main.dade295f.js"
+    "static/js/main.643e0951.js"
   ]
 }
