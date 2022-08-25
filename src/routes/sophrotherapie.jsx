@@ -20,20 +20,20 @@ function Sophro() {
     {
       id: "2",
       title: "Atelier sophro de groupe",
-      subtitle: "7 personnes maximum",
+      subtitle: "10 personnes maximum",
       price: [{ text: "15€ / personne", id: "13" }],
       text: "Atelier ponctuel afin de découvrir la pratique à travers l’énergie d’un groupe.",
-      highlight: "Les tikitons en groupes peuvent faire des miracles",
+      highlight: "Accordez-vous une bulle de douceur mensuelle, laissez-vous guider. Respirez, relâchez et repartez régénéré.",
     },
-    {
-      id: "3",
-      title: "Atelier Fly & Sophro",
-      subtitle: "7 personnes maximum",
-      price: [{ text: "25€ / personne", id: "14" }],
-      text: "Atelier ponctuel pour une détente aérienne des plus enveloppantes.",
-      highlight:
-        "Le bon plan tikiton pour découvrir les deux activités en groupe",
-    },
+    // {
+    //   id: "3",
+    //   title: "Atelier Fly & Sophro",
+    //   subtitle: "7 personnes maximum",
+    //   price: [{ text: "25€ / personne", id: "14" }],
+    //   text: "Atelier ponctuel pour une détente aérienne des plus enveloppantes.",
+    //   highlight:
+    //     "Le bon plan tikiton pour découvrir les deux activités en groupe",
+    // },
   ];
 
   return (

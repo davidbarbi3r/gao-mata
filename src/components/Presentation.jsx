@@ -1,5 +1,4 @@
 import { styled } from "@stitches/react"
-import { useState } from "react"
 
 export default function Presentation (props){
 

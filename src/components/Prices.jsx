@@ -19,7 +19,7 @@ const StyledSessionContainer = styled("section", {
   fontSize: "0.9rem",
   "@media(min-width: 1000px)": {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
   },
 });
 
@@ -65,16 +65,6 @@ const StyledSessionHighlight = styled("div", {
   color: "#063F3E",
   borderRadius: "15px",
   fontWeight: "bold",
-});
-
-const StyledContact = styled("div", {
-  "& ul": {
-    listStyleType: "none",
-    padding: "0",
-    "& a": {
-      color: "#063F3E",
-    },
-  },
 });
 
 function Prices(props) {

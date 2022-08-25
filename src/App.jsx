@@ -6,7 +6,7 @@ import Activite from "./components/Activite";
 import Reservation from "./components/Reservation";
 import Footer from "./components/Footer";
 import marionLac from "./assets/marion-lac.jpg";
-import marionBotte from "./assets/marionbotte2.jpeg"
+import marionPortrait from "./assets/marion-portrait.jpg"
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       />
       <Presentation
         titre1="Bienvenue dans l’univers Gao Mata"
-        photo1={marionBotte}
+        photo1={marionPortrait}
         pPresentation1="Je m’appelle Marion, j’ai 30 ans et la folle envie de vous guider dans le plus beau des voyages , le vôtre ! "
         pPresentation2="Au travers de mes cours, 
         ma mission est alors de vous guider 
