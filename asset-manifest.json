@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/gao-mata/static/css/main.a8926da3.css",
-    "main.js": "/gao-mata/static/js/main.9a1bfc6e.js",
+    "main.js": "/gao-mata/static/js/main.125eede3.js",
     "static/js/787.3b139045.chunk.js": "/gao-mata/static/js/787.3b139045.chunk.js",
     "static/media/mario-sophro.jpg": "/gao-mata/static/media/mario-sophro.f2c0655abd61bb5ca74d.jpg",
+    "static/media/marion-portrait.jpg": "/gao-mata/static/media/marion-portrait.41e09a901ee3f108d601.jpg",
     "static/media/marion-lac.jpg": "/gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg",
     "static/media/marion-hamac-chill2zoom.jpg": "/gao-mata/static/media/marion-hamac-chill2zoom.21003ece38d484a2ff1d.jpg",
     "static/media/ginkgo-leaves.jpg": "/gao-mata/static/media/ginkgo-leaves.735e39feb8fa2fdb130f.jpg",
-    "static/media/marionbotte2.jpeg": "/gao-mata/static/media/marionbotte2.cefa5bb2b73d7ef3daa7.jpeg",
     "static/media/lotus.png": "/gao-mata/static/media/lotus.2e4ba6ad0d9d375ffe5e.png",
     "static/media/galets.png": "/gao-mata/static/media/galets.2ded15084ab46b49638d.png",
     "static/media/logowebblanc.png": "/gao-mata/static/media/logowebblanc.3ef17bf51019e885726c.png",
     "index.html": "/gao-mata/index.html",
     "main.a8926da3.css.map": "/gao-mata/static/css/main.a8926da3.css.map",
-    "main.9a1bfc6e.js.map": "/gao-mata/static/js/main.9a1bfc6e.js.map",
+    "main.125eede3.js.map": "/gao-mata/static/js/main.125eede3.js.map",
     "787.3b139045.chunk.js.map": "/gao-mata/static/js/787.3b139045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8926da3.css",
-    "static/js/main.9a1bfc6e.js"
+    "static/js/main.125eede3.js"
   ]
 }
