@@ -1,7 +1,7 @@
 {
   "name": "gao-mata",
   "version": "0.1.0",
-  "homepage": "https://davidbarbi3r.github.io/gao-mata",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@stitches/react": "^1.2.8",
