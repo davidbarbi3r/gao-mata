@@ -8,13 +8,9 @@
   line-height: 1.6rem;
 }
 
-button {
-  box-shadow: inset 5px 4px 6px -3px rgba(255, 255, 255, 0.7);
-}
-
 button:hover,
 button:focus {
-  box-shadow: none;
+  box-shadow: inset 5px 5px 10px -3px rgba(54, 54, 54, 0.7);
 }
 
 button:active {
@@ -151,7 +147,7 @@ a {
 /*---- PRESENTATION COURTE -----*/
 
 .Presentation {
-  background-color: #71af906c;
+  background-color: #eff3f1;
   padding: 1.5em;
   display: flex;
   flex-direction: column;
@@ -248,11 +244,11 @@ a {
   cursor: pointer;
   max-width: 200px;
   width: fit-content;
+  font-size: 1.05rem;
 }
 
 .Activite img {
   width: 50%;
-  border-bottom: 1px solid black;
 }
 
 .Activite img:last-child {
@@ -292,7 +288,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #71af906c;
+  background-color: #eff3f1;
 }
 
 .Reservation button {

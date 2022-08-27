@@ -1,4 +1,3 @@
-import { findByLabelText } from "@testing-library/react";
 import { useState } from "react"
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logowebblanc.png"
@@ -49,13 +48,24 @@ export default function Header (){
         display: !menu ? "block" : "none",
     })
 
+    const rotateNeg = keyframes({
+        '0%': { transform: 'rotate(90deg)' },
+        '100%': { transform: 'rotate(-45deg)' },
+      });
+
+    const rotatePos = keyframes({
+    '0%': { transform: 'rotate(90deg)' },
+    '100%': { transform: 'rotate(45deg)' },
+    });
+
     const StyledBurgerMid1 = styled("div", {
         position:"absolute",
         top: "8px",
         width: "2px",
         height: "25px",
         backgroundColor: "White",
-        transform: !menu ? "rotate(90deg)" : "rotate(45deg)"
+        transform: !menu ? "rotate(90deg)" : "rotate(45deg)",
+        animation: menu ? `${rotatePos} 400ms` : ""
     })
 
     const StyledBurgerMid2 = styled("div", {
@@ -66,6 +76,7 @@ export default function Header (){
         backgroundColor: "White",
         display: menu ? "block" : "none",
         transform: !menu ? "rotate(90deg)" : "rotate(-45deg)",
+        animation: menu ? `${rotateNeg} 400ms` : ""
     })
 
     const StyledBurgerBot = styled("div", {
@@ -77,17 +88,6 @@ export default function Header (){
         transform: !menu ? "rotate(90deg)" : "rotate(-45deg)",
         display: !menu ? "block" : "none",
     })
-
-    const rotateNeg = keyframes({
-        '0%': { transform: 'rotate(90deg)' },
-        '100%': { transform: 'rotate(-45deg)' },
-      });
-
-      const rotatePos = keyframes({
-        '0%': { transform: 'rotate(90deg)' },
-        '100%': { transform: 'rotate(45deg)' },
-      });
-      
 
     return (
         <div className="Header-container">
