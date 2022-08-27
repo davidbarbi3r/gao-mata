@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Fly from './routes/fly-yoga';
 import Sophro from './routes/sophrotherapie';
 import Reservation from './routes/reservation';
@@ -13,7 +13,7 @@ import ScrollToTop from './utils/ScrollToTop';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className="App">
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToTop>
         <Routes>
             <Route exact path="/" element={<App/>}/>
@@ -22,7 +22,7 @@ root.render(
             <Route path="/reservation" element={<Reservation/>}/>
         </Routes>
       </ScrollToTop>
-  </HashRouter>
+  </BrowserRouter>
   </div>
 );
 
