@@ -4,7 +4,7 @@ import Reservation from "../components/Reservation";
 import Footer from "../components/Footer";
 import Presentation from "../components/Presentation";
 import Prices from "../components/Prices";
-import marionPhoto from "../assets/mario-sophro.jpg"
+import marionPhoto from "../assets/marion-riviere.jpg"
 
 function Sophro() {
   const sophroSessions = [
@@ -25,21 +25,21 @@ function Sophro() {
       text: "Atelier ponctuel afin de découvrir la pratique à travers l’énergie d’un groupe.",
       highlight: "Accordez-vous une bulle de douceur mensuelle, laissez-vous guider. Respirez, relâchez et repartez régénéré.",
     },
-    // {
-    //   id: "3",
-    //   title: "Atelier Fly & Sophro",
-    //   subtitle: "7 personnes maximum",
-    //   price: [{ text: "25€ / personne", id: "14" }],
-    //   text: "Atelier ponctuel pour une détente aérienne des plus enveloppantes.",
-    //   highlight:
-    //     "Le bon plan tikiton pour découvrir les deux activités en groupe",
-    // },
+    {
+      id: "3",
+      title: "La pause Sophro",
+      subtitle: "séance individuelle",
+      price: [{ text: "20€ / personne", id: "14" }],
+      text: "Accordez vous une pause de 30 min dans votre journée de travail durant votre pause méridienne. Je vous accueille du lundi au mercredi chez Mudita pour ce moment suspendu.",
+      highlight:
+        "Prenez le temps de venir vous ressourcer pour une meilleure efficacité au quotidien",
+    },
   ];
 
   return (
     <div>
       <Header />
-      <Title title="Sophrothérapie" quote="Science de l’esprit harmonieux" />
+      <Title title="Sophrothérapie" quote='"Science de l’esprit harmonieux"' />
       <Presentation
         titre1="La sophrologie"
         photo1={marionPhoto}

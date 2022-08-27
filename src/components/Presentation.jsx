@@ -5,7 +5,7 @@ export default function Presentation (props){
     const StyledPhoto = styled("img", {
         objectPosition: "bottom",
         margin: "0 auto",
-        maxHeight: "50vh",
+        maxHeight: "70vh",
         maxWidth: "100%",
         objectFit: "cover",
         borderRadius:"15px",

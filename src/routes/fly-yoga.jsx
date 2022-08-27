@@ -6,6 +6,7 @@ import Prices from "../components/Prices";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Presentation from "../components/Presentation";
 import marionHamac from "../assets/marion-hamac-chill2zoom.jpg";
+import marionPhoto from "../assets/mario-sophro.jpg"
 
 
 function Fly() {
@@ -49,7 +50,7 @@ function Fly() {
         pPresentation1="Le fly yoga , le “yoga volant” , le “yoga dans les airs” , le “yoga avec le tissu” , oui oui , c’est bien de lui dont nous allons parler"
         pPresentation2="Cette méthode permet en effet d'allier corps physique, mental et émotionnel afin d’ouvrir tous les possibles de libération, de légèreté, de voyage et d’évasion.  
                     Enveloppé par le tissu, une deuxième peau s’offre à toi, le bercement t’apaise, les positions te déchargent "
-        photo1={marionHamac}
+        photo1={marionPhoto}
         titre2="Une méthode développée avec des kinésithérapeutes"
         pPresentationSuite1="Le Fly Yoga garanti le respect de notre biomécanique. 
         J'ai pour objectif de te guider dans ta propre exploration en mettant en lumière les potentialités de chacun. 
