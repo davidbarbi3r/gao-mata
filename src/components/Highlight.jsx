@@ -5,8 +5,6 @@ export default function Highlight (props){
         backgroundImage: `url(${props.backgroundImage})`,
         height: '83vh',
         paddingTop: "4em",
-        // backgroundColor: "#64966b93",
-        // backgroundBlendMode: "darken",
         backgroundPosition: "left",
         backgroundSize: "cover",
         fontFamily: 'Montserrat',

@@ -1,6 +1,6 @@
 import React from 'react'
 import { styled } from '@stitches/react'
-import leaves from "../assets/test/ginkgo-leaves.jpg"
+import leaves from "../assets/ginkgo-leavesld.jpg"
 
 const StyledContainer = styled("div", {
     display: "flex",

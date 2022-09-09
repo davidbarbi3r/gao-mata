@@ -34,7 +34,7 @@ export default function Header (){
         position: "relative",
         width: "30px",
         height: "30px",
-        transform: "rotate(0deg)"
+        transform: "rotate(0deg)",
     })
 
     const StyledBurgerTop = styled("div", {

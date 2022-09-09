@@ -5,8 +5,7 @@ import Title from "../components/Title";
 import Prices from "../components/Prices";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Presentation from "../components/Presentation";
-import marionHamac from "../assets/marion-hamac-chill2zoom.jpg";
-import marionPhoto from "../assets/mario-sophro.jpg"
+import marionPhoto from "../assets/marion-fly-presentation.jpg"
 
 
 function Fly() {
@@ -15,7 +14,7 @@ function Fly() {
     {
       id:"1",
       title: "Cours collectifs",
-      subtitle: "7 personnes maximum, réservation OBLIGATOIRE",
+      subtitle: "6 personnes maximum, réservation OBLIGATOIRE",
       price: [{text:"22€ / personne", id:"1"}],
       text:"La pratique telle qu’elle est envisagée chez Mudita aura pour but de relâcher le corps et l’esprit tout en douceur, au travers de postures réconfortantes. Ce, sans oublier un travail musculaire en profondeur au poids du corps, en jouant avec la gravité.",
       highlight: "Le petit + : J'utilise également ma casquette de sophrologue au sein de ma pratique afin de favoriser une détente profonde."
@@ -23,7 +22,7 @@ function Fly() {
     {
       id:"2",
       title: "Fly duo Adulte - Enfant",
-      subtitle: "[Ponctuel] 7 duos maximum, réservation OBLIGATOIRE",
+      subtitle: "[Ponctuel] 6 duos maximum, réservation OBLIGATOIRE",
       price: [{text:"25€ / duo", id:"2"}],
       text:"Parent , Oncle , Tante , Cousin , Marraine , Parrain , Tuteur, Référent … la liste est longue ! Je vous invite ici à créer un duo d’un jour “Adulte-Enfant” pour un voyage hors du commun. Un espace pour laisser libre place à nos enfants intérieurs et partager un moment d’égal à égal.",
       highlight: "Je vous guide au gré de mon inspiration pour une joyeuse escapade, qui, je l’espère, ancrera de doux souvenirs !"
@@ -31,7 +30,7 @@ function Fly() {
     {
       id:"3",
       title: "Cours privés",
-      subtitle: "Seul / Duo ou groupes (maximum de 7 personnes)",
+      subtitle: "Seul / Duo ou groupes (maximum de 6 personnes)",
       price: [{text: "Particulier: 60€ / heure", id:'1'},{text: "Duo: 80€ / heure par duo", id:"2"},{text:"Groupe: me contacter", id:"3"}],
       text: "Privatisez votre espace Fly yoga pour ces moments si particuliers! Je vous guiderais avec joie, selon vos souhaits pour de merveilleux instants partagés entre ciel et terre.",
       highlight: "EVGF - EVG / Anniversaire / Entreprises. Prenez contact avec moi afin de me faire part de vos envies et souhaits , je serais ravie de vous accompagner dans ce moment rien que  pour vous."
@@ -41,12 +40,12 @@ function Fly() {
   return (
     <div>
       <Title
-        title="Fly Yoga"
+        title="Fly Yoga ©"
         quote="Déployez vos ailes, la Magie du Hamac ne demande qu’à œuvrer pour vous"
       />
       <Header />
       <Presentation
-        titre1="Qu'est ce que le Fly Yoga?"
+        titre1="Qu'est ce que le Fly Yoga © ?"
         pPresentation1="Le fly yoga , le “yoga volant” , le “yoga dans les airs” , le “yoga avec le tissu” , oui oui , c’est bien de lui dont nous allons parler"
         pPresentation2="Cette méthode permet en effet d'allier corps physique, mental et émotionnel afin d’ouvrir tous les possibles de libération, de légèreté, de voyage et d’évasion.  
                     Enveloppé par le tissu, une deuxième peau s’offre à toi, le bercement t’apaise, les positions te déchargent "

@@ -30,6 +30,10 @@ a {
   text-decoration: underline;
 }
 
+h2 {
+  text-align: left;
+}
+
 /*----- HEADER -----*/
 
 .Header {
@@ -195,7 +199,7 @@ a {
 
   .Presentation-second-container{
     display: block;
-    margin: 4em 0;
+    margin: 1em 0;
   }
 
   .Presentation-detaillee {
@@ -307,6 +311,7 @@ a {
 .Footer {
   padding: 1em;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -314,3 +319,36 @@ a {
   color: white;
 }
 
+.Footer div {
+  margin-bottom: 1em;
+}
+
+.Socials {
+  display: flex;
+  align-items: center;
+}
+
+.Socials a {
+  border: 1px #b36a5e solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.Socials a:hover,
+.Socials a:focus {
+  border: 1px white solid;
+  border-radius: 5px;
+}
+
+
+@media(min-width: 700px){
+  .Footer {
+    flex-direction: row;
+  }
+
+  .Socials {
+    margin-left: 2em;
+  }
+}

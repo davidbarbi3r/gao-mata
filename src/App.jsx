@@ -2,11 +2,12 @@ import "./App.css";
 import Header from "./components/Header";
 import Highlight from "./components/Highlight";
 import Presentation from "./components/Presentation";
+import ClinDoeil from "./components/ClinDoeil";
 import Activite from "./components/Activite";
 import Reservation from "./components/Reservation";
 import Footer from "./components/Footer";
-import marionLac from "./assets/marion-lac.jpg";
-import marionPortrait from "./assets/marion-portrait.jpg"
+import marionLac from "./assets/marion-lacld.jpg";
+import marionPortrait from "./assets/marion-portraild.jpg"
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         pPresentationDetaillee2="Toujours désireuse d’accompagner et de pouvoir apporter un soutien à quiconque en ressent le besoin face aux épreuves que la vie oriente sur nos chemins , j’ai aussi entrepris de me former à la Sophrologie via l’Institut de Formation à la Sophrologie - Catherine Aliotta.
         C’est désormais forte de mes expériences, de mon parcours de vie et plus que jamais en phase avec mon hypersensibilité que je souhaite vous apporter de nouveaux outils, pour une meilleure connaissance de vous-même et un quotidien plus doux."
       />
+      <ClinDoeil/>
       <Activite />
       <Reservation />
       <Footer />

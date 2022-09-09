@@ -9,15 +9,14 @@ export default function Presentation (props){
         maxWidth: "100%",
         objectFit: "cover",
         borderRadius:"15px",
-        "&::before":{
-            width: "1250px",
-            height: "1250px",
-            borderLeft: "50px solid transparent",
-            borderRight: "50px solid transparent",
-            borderBottom: "100px solid blue",
+        '&::after': {
+            content: ``,
+            display: 'block',
             backgroundColor: "red",
-            top: "-50px"
-        },
+            width: '500px',
+            height: '500px',
+            borderRadius: 'inherit',
+          },
         "@media(min-width: 700px)": {
             width: "40%",
             margin: "0 auto",

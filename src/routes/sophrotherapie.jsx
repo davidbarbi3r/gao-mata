@@ -4,7 +4,7 @@ import Reservation from "../components/Reservation";
 import Footer from "../components/Footer";
 import Presentation from "../components/Presentation";
 import Prices from "../components/Prices";
-import marionPhoto from "../assets/marion-riviere.jpg"
+import marionPhoto from "../assets/marion-riviereld.jpg"
 
 function Sophro() {
   const sophroSessions = [

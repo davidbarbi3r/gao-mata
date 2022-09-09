@@ -26,7 +26,7 @@ export default function Activite (){
             <section className="Activite fly">
                 <div className="Activite-text">
                     <h2>
-                        Fly Yoga
+                        Fly Yoga ©
                     </h2>
                     <p>
                         Cette méthode a pour but d’<strong>allier corps physique, 
