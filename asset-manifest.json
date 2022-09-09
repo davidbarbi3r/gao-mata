@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/gao-mata/static/css/main.812820bc.css",
-    "main.js": "/gao-mata/static/js/main.3b422856.js",
-    "static/js/787.3b139045.chunk.js": "/gao-mata/static/js/787.3b139045.chunk.js",
-    "static/media/mario-sophro.jpg": "/gao-mata/static/media/mario-sophro.f2c0655abd61bb5ca74d.jpg",
-    "static/media/marion-portrait.jpg": "/gao-mata/static/media/marion-portrait.41e09a901ee3f108d601.jpg",
-    "static/media/marion-lac.jpg": "/gao-mata/static/media/marion-lac.9d914c7c6bf554ae8f88.jpg",
-    "static/media/marion-riviere.jpg": "/gao-mata/static/media/marion-riviere.433833192442412136c0.jpg",
-    "static/media/marion-hamac-chill2zoom.jpg": "/gao-mata/static/media/marion-hamac-chill2zoom.21003ece38d484a2ff1d.jpg",
-    "static/media/ginkgo-leaves.jpg": "/gao-mata/static/media/ginkgo-leaves.735e39feb8fa2fdb130f.jpg",
-    "static/media/lotus.png": "/gao-mata/static/media/lotus.2e4ba6ad0d9d375ffe5e.png",
-    "static/media/galets.png": "/gao-mata/static/media/galets.2ded15084ab46b49638d.png",
-    "static/media/logowebblanc.png": "/gao-mata/static/media/logowebblanc.3ef17bf51019e885726c.png",
-    "index.html": "/gao-mata/index.html",
-    "main.812820bc.css.map": "/gao-mata/static/css/main.812820bc.css.map",
-    "main.3b422856.js.map": "/gao-mata/static/js/main.3b422856.js.map",
-    "787.3b139045.chunk.js.map": "/gao-mata/static/js/787.3b139045.chunk.js.map"
+    "main.css": "./static/css/main.85ca2bcd.css",
+    "main.js": "./static/js/main.a6bf80f6.js",
+    "static/js/787.3b139045.chunk.js": "./static/js/787.3b139045.chunk.js",
+    "static/media/marion-lacld.jpg": "./static/media/marion-lacld.3070a0131decb722bbe5.jpg",
+    "static/media/marion-riviereld.jpg": "./static/media/marion-riviereld.59b37dae7d6aa5348c47.jpg",
+    "static/media/marion-fly-presentation.jpg": "./static/media/marion-fly-presentation.f46be38640403115c007.jpg",
+    "static/media/ginkgo-leavesld.jpg": "./static/media/ginkgo-leavesld.febe7ba678c11b04e1ed.jpg",
+    "static/media/marion-portraild.jpg": "./static/media/marion-portraild.b68570330bc60be9f017.jpg",
+    "static/media/lotus.png": "./static/media/lotus.2e4ba6ad0d9d375ffe5e.png",
+    "static/media/galets.png": "./static/media/galets.2ded15084ab46b49638d.png",
+    "static/media/logowebblanc.png": "./static/media/logowebblanc.3ef17bf51019e885726c.png",
+    "index.html": "./index.html",
+    "main.85ca2bcd.css.map": "./static/css/main.85ca2bcd.css.map",
+    "main.a6bf80f6.js.map": "./static/js/main.a6bf80f6.js.map",
+    "787.3b139045.chunk.js.map": "./static/js/787.3b139045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.812820bc.css",
-    "static/js/main.3b422856.js"
+    "static/css/main.85ca2bcd.css",
+    "static/js/main.a6bf80f6.js"
   ]
 }
