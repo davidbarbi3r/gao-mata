@@ -21,7 +21,7 @@ function App() {
         backgroundImage={marionLac}
       />
       <Presentation
-        titre1="Bienvenue dans l’univers Gao Mata"
+        titre1="Bienvenue dans l’univers Gao Mata Limoges"
         photo1={marionPortrait}
         pPresentation1="Je m’appelle Marion, j’ai 30 ans et la folle envie de vous guider dans le plus beau des voyages , le vôtre ! "
         pPresentation2="Au travers de mes cours, 

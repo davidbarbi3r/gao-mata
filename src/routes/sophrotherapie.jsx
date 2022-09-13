@@ -58,7 +58,7 @@ function Sophro() {
                 "
         titre4="Pourquoi la sophrothérapie ?"
         pPresentationSuite4="La base de mon travail est bien entendu axée pleinement sur la sophrologie, toutefois ayant bénéficié du coaching “coach ailé” dispensé par Florie Ravinet (citée auparavant) , et forte de ce qu’il a pu faire émerger en moi , je vous propose, si vous le souhaitez, d’aller un peu plus loin dans ce voyage vers vous même en explorant pleinement vos potentialités.
-                "
+        Venez découvrir la pratique au sein de mon cabinet en centre ville de Limoges."
       />
       <Prices data={sophroSessions} />
       <Reservation />

@@ -10,6 +10,9 @@ function ClinDoeil() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        "strong": {
+            fontWeight: "inherit"
+        },
         "div" : {
             display: "flex",
             flexDirection: "column",
@@ -32,7 +35,7 @@ function ClinDoeil() {
   return (
     <StyledClin>
         <div>
-            <h2>Le Clin d'oeil Gao Mata</h2>
+            <h2>Le Clin d'oeil <strong>Gao Mata</strong></h2>
             <img src={eye} alt='logo oeil'></img>
             <p>
                 Ce terme définit la fameuse vache sacrée en Inde, <br/>
@@ -43,7 +46,7 @@ function ClinDoeil() {
                 à la “mère universelle” , Sentez-vous accueillis de manière chaleureuse
                 et inconditionnelle au sein de Gao Mata.
                 Je vous suis d’une immense
-                gratitude quant à l’intérêt que vous portez à mon projet !
+                gratitude quant à l’intérêt que vous portez aux pratiques que j'exerce : <strong>Fly Yoga et Sophrothérapie à Limoges</strong>
             </p>
         </div>
     </StyledClin>

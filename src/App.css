@@ -22,6 +22,10 @@ a {
   color: white
 }
 
+strong {
+  font-weight: inherit;
+}
+
 .Header-plein-menu .Active {
   border-bottom: 1px white solid;
 }

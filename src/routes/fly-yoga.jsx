@@ -58,8 +58,7 @@ function Fly() {
         pPresentationSuite2="Très à l’écoute de tes besoins et de ceux du groupe , je tiens à t’accueillir dans un espace de non jugement et de douceur."
         highlight1="Les cours sont ouverts à tous, c'est une méthode qui s'adapte à chacun."
         pPresentationSuite3="Il n’y a pas de “trop vieux”, “trop grosse“, “pas assez souple”, “trop petit”, tous les corps se fondent dans le hamac. 
-        La pratique telle qu’elle est envisagée chez Mudita aura pour but de relâcher le corps et l’esprit tout en douceur, au travers de postures réconfortantes.
-        Ce, sans oublier un travail musculaire en profondeur au poids du corps, en jouant avec la gravité."
+        Venez pratiquer le Fly yoga à Limoges, laissez vous transporter par ce doux voyage."
       />
       <Prices
         data={yogaSessions}

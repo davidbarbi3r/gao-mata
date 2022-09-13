@@ -76,7 +76,7 @@ export default function Presentation (props){
                             {props.pPresentationDetaillee1} 
                         </p>
                         <p>
-                            {props.pPresentationDetaillee2} 
+                            {props.pPresentationDetaillee2}
                         </p>
                     </div>
                 </div>

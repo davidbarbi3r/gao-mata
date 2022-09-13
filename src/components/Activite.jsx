@@ -8,12 +8,12 @@ export default function Activite (){
             <section className="Activite sophro">
                 <div className="Activite-text">
                     <h2>
-                        Sophrothérapie
+                        <strong>Sophrothérapie</strong>
                     </h2>
                     <p>
-                        Inspirée du yoga , du zen , de la psychanalyse , 
-                        la sophrologie est une <strong>méthode thérapeutique douce  
-                        qui vise à prendre conscience de ses capacités</strong> à surmonter 
+                        Inspirée du <strong>yoga , du zen , de la psychanalyse , 
+                        la sophrologie</strong> est une méthode thérapeutique douce  
+                        qui vise à prendre conscience de ses capacités à surmonter 
                         certaines situations , de peurs , phobies , angoisses. 
                         Elle est également très couramment utilisée dans la gestion du stress, 
                         dans des parcours de soin, 
@@ -26,7 +26,7 @@ export default function Activite (){
             <section className="Activite fly">
                 <div className="Activite-text">
                     <h2>
-                        Fly Yoga ©
+                        <strong>Fly Yoga</strong> ©
                     </h2>
                     <p>
                         Cette méthode a pour but d’<strong>allier corps physique, 
